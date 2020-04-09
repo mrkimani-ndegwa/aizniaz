@@ -1,0 +1,24 @@
+#aizniaz {
+    // position: relative;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: black, 
+}
+
+.logo-svg {
+    fill: white;
+    animation: animate-aiz 10s;
+}
+
+@keyframes animate-aiz {
+    0% { filter: opacity(0); }
+    50% { filter: opacity(0.5); }
+    100% { filter: opacity(1); }
+}

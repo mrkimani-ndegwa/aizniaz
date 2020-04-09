@@ -41,7 +41,19 @@ module.exports = {
                         loader: "sass-loader" // compiles Sass to CSS
                     }
                 ]
-            }
+            },
+            {
+                test: /\.(png|jpg|gif)$/i,
+                use: [
+                  {
+                    loader: 'url-loader',
+                    options: {
+                      limit: 8192,
+                      esModule: false
+                    },
+                  },
+                ],
+            },
         ]
     },
     plugins: [htmlPlugin],
