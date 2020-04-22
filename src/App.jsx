@@ -1,5 +1,7 @@
 import React from 'react';
+import { Container } from 'semantic-ui-react'
 const Bg = require("../public/assets/img/bg.jpg");
+
 
 import Logo from "./components/Logo";
 
@@ -15,20 +17,18 @@ export default class App extends React.Component {
             display: 'flex',
             alignItems: "center",
             justifyContent: "center",
-            mixBlendMode: 'darken',
             boxSizing: "border-box",
-            border: '15px solid white',
+            border: '5px solid white',
             left: 0,
             top: 0,
             right: 0,
             bottom: 0
         }
 
-
         return (
-            <div style={style}>
+            <Container style={style}>
                 <Logo />
-            </div>
+            </Container>
         )
     }
 }
