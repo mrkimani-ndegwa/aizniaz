@@ -1663,7 +1663,7 @@ body.single-post .hero-content {
   .pr__image__cover.pr__ratio__portrait {
     padding-top: calc(150% - 36px); }
   .pr__image__cover.pr__ratio__portrait-alt {
-    padding-top: 0 }
+    padding-top: calc(100%); }
   
   .pr__image__cover.pr__ratio__landscape {
     padding-top: 56.25%; }
@@ -2118,3 +2118,5 @@ a.uk-slidenav {
       margin: 60px 0 5px 0; } }
 
 
+
+      
